@@ -7,9 +7,9 @@
 
 And see it working in
 
-**[Go to the website](https://app.netlify.com/sites/glistening-biscotti-c3ee08/overview)**
+**[Go to the website](https://glistening-biscotti-c3ee08.netlify.app)**
 ```bash
-https://app.netlify.com/sites/glistening-biscotti-c3ee08/overview
+https://glistening-biscotti-c3ee08.netlify.app
 ```  
 
 ## 🧪 Technologies
