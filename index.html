@@ -13,29 +13,34 @@
 
     <div class="conteudo">
         <div class="topo">
-            <input type="text" id="inputNomeTarefa" placeholder="adicione uma nova tarefa">
+            <input type="text" id="inputNovaTarefa" placeholder="adicione uma nova tarefa">
             <button id="btnAddTarefa">
                 <i class="fa fa-plus"></i>
             </button>
         </div>
         <ul id="listaTarefas">
-            <li>
-                <span class="textoTarefa"></span>
-                <div>
-                    <button class="btnAcao">
-                        <i class="fa fa-pencil"></i>
-                    </button>
-                    <button class="btnAcao">
-                        <i class="fa fa-trash"></i>
-                    </button>
-                </div>
-            </li>
         </ul>
     </div>
 
 
 
-
+    <div id="janelaEdicao">
+        <button id="janelaEdicaoBtnFechar">
+         <i class="fa fa-remove fa-2x"></i>
+     </button>
+        <h2 id="idTarefaEdicao"></h2>
+        <hr>
+        <form>
+            <div class="frm-linha">
+                <label for="Nome">Nome</label>
+                <input type="text" id="inputTarefaNomeEdicao">
+            </div>
+            <div class="frm-linha">
+                <button id="btnAtualizarTarefa">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div id="janelaEdicaoFundo"></div>
 
 
 
